@@ -2,6 +2,20 @@
 
 phantom is a chat bot built on the [Hubot](http://hubot.github.com) framework.
 
+## For docker
+
+### Build
+
+```bash
+$ docker build --force-rm --no-cache -t 178inaba/phantom .
+```
+
+### Run
+
+```bash
+$ docker run -d --restart unless-stopped -e HUBOT_HIPCHAT_JID=... -e HUBOT_HIPCHAT_PASSWORD=... --name phantom 178inaba/phantom
+```
+
 ### Running phantom Locally
 
 You can test your hubot by running the following, however some plugins will not
