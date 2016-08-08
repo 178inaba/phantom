@@ -1,8 +1,8 @@
 # phantom
 
-phantom is a chat bot built on the [Hubot](http://hubot.github.com) framework.
+phantom is a chat bot for [HipChat](https://github.com/hipchat/hubot-hipchat) built on the [Hubot](https://hubot.github.com) framework.
 
-## For docker
+## On docker
 
 ### Build
 
