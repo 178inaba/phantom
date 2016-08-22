@@ -15,7 +15,7 @@
     "hubot-hipchat": "^2.12.0-6",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
-    "hubot-qr-generator": "git://github.com/178inaba/QR-Generator.git#hipchat_hack",
+    "hubot-qr-generator": "178inaba/QR-Generator#hipchat_hack",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
