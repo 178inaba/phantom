@@ -1,6 +1,7 @@
 FROM alpine
 
-RUN apk add --no-cache nodejs
+RUN apk add --no-cache nodejs || \
+    (sed -i -e 's/dl-cdn/dl-4/g' /etc/apk/repositories && apk add --no-cache nodejs)
 
 RUN mkdir -p /bot/src/app
 COPY . /bot/src/app
