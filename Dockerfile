@@ -1,7 +1,7 @@
 FROM alpine
 
 ENV INSTALL_PKG "nodejs git imagemagick"
-RUN apk add --no-cache $INSTALL_PKG || \
+RUN apk update && apk add --no-cache $INSTALL_PKG || \
     (sed -i -e "s/dl-cdn/dl-4/g" /etc/apk/repositories && apk add --no-cache $INSTALL_PKG)
 
 RUN mkdir -p /bot/src/app
