@@ -1,4 +1,5 @@
 FROM alpine
+MAINTAINER 178inaba <178inaba@users.noreply.github.com>
 
 ENV INSTALL_PKG "nodejs git imagemagick"
 RUN apk update && apk add --no-cache $INSTALL_PKG || \
