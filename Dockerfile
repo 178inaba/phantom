@@ -10,6 +10,6 @@ RUN mkdir -p /bot/src/app
 COPY . /bot/src/app
 WORKDIR /bot/src/app
 
-RUN npm install
+RUN git clean -dfx && npm install
 
 CMD ["bin/hubot", "-a", "hipchat"]
