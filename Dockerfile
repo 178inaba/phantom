@@ -12,4 +12,4 @@ WORKDIR /bot/src/app
 
 RUN git clean -dfx && npm install
 
-CMD ["bin/hubot", "-a", "hipchat"]
+CMD ["bin/hubot", "-a", "hipchat2"]
