@@ -12,7 +12,7 @@
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "178inaba/hubot-help#reply_new_line",
     "hubot-heroku-keepalive": "178inaba/hubot-heroku-keepalive#keepalive_one-liner_regexp",
-    "hubot-hipchat2": "^1.1.0",
+    "hubot-hipchat2": "^1.2.1",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-qr-generator": "178inaba/QR-Generator#hipchat_hack",
