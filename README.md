@@ -4,15 +4,23 @@ phantom is a chat bot for [HipChat](https://github.com/hubot-hipchat2/hubot-hipc
 
 ## On docker
 
-### Build
+### Get image
 
-```bash
+#### Pull (recommended)
+
+```console
+$ docker pull [178inaba/phantom](https://hub.docker.com/r/178inaba/phantom/)
+```
+
+#### Build
+
+```console
 $ docker build --force-rm --no-cache -t 178inaba/phantom .
 ```
 
 ### Run
 
-```bash
+```console
 $ docker run -d --restart unless-stopped -e HUBOT_HIPCHAT_JID=... -e HUBOT_HIPCHAT_PASSWORD=... --name phantom 178inaba/phantom
 ```
 
