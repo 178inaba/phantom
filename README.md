@@ -1,10 +1,10 @@
-# phantom
+# Phantom
 
-phantom is a chat bot for [HipChat](https://github.com/hubot-hipchat2/hubot-hipchat2) built on the [Hubot](https://hubot.github.com) framework.
+Phantom is a chat bot for [HipChat](https://github.com/hubot-hipchat2/hubot-hipchat2) built on the [Hubot](https://hubot.github.com) framework.
 
-## On docker
+## Running Phantom on Docker
 
-### Get image
+### Get Image
 
 #### Pull (recommended)
 
@@ -20,7 +20,7 @@ $ docker pull 178inaba/phantom
 $ docker build --force-rm --no-cache -t 178inaba/phantom .
 ```
 
-### Run
+### Running
 
 ```console
 $ docker run -d --restart unless-stopped -e HUBOT_HIPCHAT_JID=... -e HUBOT_HIPCHAT_PASSWORD=... --name phantom 178inaba/phantom
