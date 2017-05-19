@@ -8,8 +8,10 @@ phantom is a chat bot for [HipChat](https://github.com/hubot-hipchat2/hubot-hipc
 
 #### Pull (recommended)
 
+From [Docker Hub](https://hub.docker.com/r/178inaba/phantom/).
+
 ```console
-$ docker pull [178inaba/phantom](https://hub.docker.com/r/178inaba/phantom/)
+$ docker pull 178inaba/phantom
 ```
 
 #### Build
